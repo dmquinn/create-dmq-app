@@ -1,6 +1,6 @@
 {
   "name": "create-dmq-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -43,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-    "bin": {
+  "bin": {
     "create-dmq-app": "./generate-app.js"
   }
 }
