@@ -4,7 +4,7 @@ const fs = require("fs");
 if (process.argv.length < 3) {
   console.log("You have to provide a name to your app.");
   console.log("For example :");
-  console.log("    npx create-my-boilerplate my-app");
+  console.log("    npx create-dmq-app my-app");
   process.exit(1);
 }const projectName = process.argv[2];
 const currentPath = process.cwd();
@@ -36,7 +36,7 @@ async function main() {
       execSync('npx rimraf ./.git');
       fs.rmdirSync(path.join(projectPath, 'bin'), { recursive: true});
 
-      console.log('The installation is done, this is ready to use !');
+      console.log('The installation is done, Lets get coding!!');
 
     } catch (error) {
       console.log(error);
