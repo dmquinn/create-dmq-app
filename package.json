@@ -1,6 +1,6 @@
 {
   "name": "create-dmq-app",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": false,
   "bin": {
     "create-dmq-app": "./bin/generate-app.js"
